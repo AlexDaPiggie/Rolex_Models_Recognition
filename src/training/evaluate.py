@@ -6,10 +6,20 @@ from torch.utils.data import DataLoader
 from src.training.dataset import make_image_folder
 from src.training.models import create_model
 
+'''
+This file is for evaluating the performance of the model on test set 
+'''
+
 def load_checkpoint (checkpoint_path: Path, device: torch.device):
+    '''
+    This model loads the model from the checkpoint where it got the highest performance on validation set
+    '''
     return torch.load (checkpoint_path, map_location = device)
 
 def top_prediction (logits: torch.tensor, class_names: list[str]): 
+    '''
+    
+    '''
     probabilities = torch.softmax (logits, dim = 1)[0]
     predicted_index = int (probabilities.argmax().item())
     probabilities = {
@@ -62,7 +72,7 @@ def evaluate_checkpoint(
 
 def parse_args():
     parser = argparse.ArgumentParser(description = 'Evaluate model')
-    parser.add_argument('--batch-size', type = int, default = 8)
+    parser.add_argument('--batch-size', type = int, default = 16)
     return parser.parse_args()
 
 def main(): 
