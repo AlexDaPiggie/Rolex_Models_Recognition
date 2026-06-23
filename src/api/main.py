@@ -5,9 +5,14 @@ from PIL import Image, UnidentifiedImageError
 import torch
 from src.training.dataset import build_transforms
 from src.training.models import create_model
+from src.identify.clip_matcher import rank_variants
+from src.identify.variants import load_catalog, variants_family
 
+VARIANT_CATALOG_PATH = Path ('data/identify/rolex_variants.json')
 MODEL_PATH = Path ('models/rolex_classifier_model.pt')
 app = FastAPI(title = 'Rolex Classifier')
+
+variant_catalog = load_catalog(VARIANT_CATALOG_PATH)
 device = torch.device ('cpu')
 model = None
 class_names = []
@@ -54,11 +59,17 @@ def predict_image (image: Image.Image):
         for index, class_name in enumerate(class_names)
     }
 
-    return {
-        'predicted_class': class_names[predicted_index],
+    predicted_class = class_names[predicted_index]
+    result =  {
+        'predicted_class': predicted_class,
         'confidence': probabilities[class_names[predicted_index]],
         'probabilities': probabilities,
     }
+
+    variants = variants_family(variant_catalog, predicted_class)
+    result.update (rank_variants(image, variants))
+    return result
+
 
 @app.post ('/predict')
 async def predict (file: UploadFile = File(...)): 
