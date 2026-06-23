@@ -35,13 +35,13 @@ def build_transforms (train: bool):
             [
                 transforms.RandomResizedCrop(
                     IMAGE_SIZE,
-                    scale = (0.75, 1.0),
-                    ratio = (0.9, 1.1),
+                    scale = (0.75, 1.2),
+                    ratio = (0.85, 1.3),
                 ),
-                transforms.RandomRotation(degrees=15),
+                transforms.RandomRotation(degrees=50),
 
                 transforms.RandomPerspective(
-                    distortion_scale=0.18,
+                    distortion_scale=0.25,
                     p = 0.35,
                 ),
                 transforms.ColorJitter(
