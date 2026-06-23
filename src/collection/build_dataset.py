@@ -25,10 +25,10 @@ def image_files (class_dir: Path):
 
 def discover_input_labels(input_root: Path):
     '''
-    
+    Go through all input folders and check their names (labels). It triggers an error if any name is invalid
     '''
     labels = sorted(
-        path.named
+        path.name
         for path in input_root.iterdir()
         if path.is_dir() and image_files(path)
     )
@@ -39,6 +39,9 @@ def discover_input_labels(input_root: Path):
     return labels
 
 def final_label_for(raw_label: str):
+    '''
+    Helps to map original labels to the lables used in the processed folder. (we map datejust41 to datejust in our prj)
+    '''
     return LABEL_ALIASES.get(raw_label, raw_label)
 
 def split_counts(
@@ -46,12 +49,18 @@ def split_counts(
     train_ratio: float,
     val_ratio: float,
 ):
+    '''
+    Split the dataset into train-val-test sets using the ratio
+    '''
     train_count = int(total * train_ratio)
     val_count = int(total * val_ratio)
     test_count = total - train_count - val_count
     return train_count, val_count, test_count
 
 def clean_output_root (output_root: Path):
+    '''
+    prepare the output path, remove if it's already existed
+    '''
     if output_root.exists():
         shutil.rmtree (output_root)
     for split in ('train', 'val', 'test'): 
@@ -61,12 +70,18 @@ def clean_output_root (output_root: Path):
         )
 
 def copy_split (files: list[Path], output_dir: Path): 
+    '''
+    This function Copy the images into the output path, which helps to move images from raw_incoming to processed, making it's easier to track the dataset.
+    '''
     output_dir.mkdir (parents = True, exist_ok=True)
     for source_path in files: 
         shutil.copy2(source_path, output_dir / source_path.name)
 
 
 def write_class_mapping (output_root: Path, labels: list[str]):
+    '''
+    This function is to map the labels ordinally, helping the model to work
+    '''
     mapping = {label: index for index, label in enumerate(labels)}
     
     # write json files with good formats
@@ -83,6 +98,10 @@ def build_dataset (
     val_ratio: float = DEFAULT_VAL_RATIO,
     test_ratio: float = DEFAULT_TEST_RATIO,
 ):
+    
+    '''
+    This is the function that uses all helper function above to create the final dataset for training.
+    '''
     raw_labels = discover_input_labels(input_root)
     files_by_label = {}
     for raw_label in raw_labels:
