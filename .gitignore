@@ -2,3 +2,4 @@ docs
 models
 .pytest_cache
 data
+*.pyc
