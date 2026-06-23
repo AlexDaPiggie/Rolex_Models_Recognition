@@ -13,6 +13,9 @@ LABEL_ALIASES = {
 }
 
 def image_files (class_dir: Path):
+    '''
+    This function returns the images in the folders
+    '''
     return sorted (
         path 
         for path in class_dir.iterdir()
@@ -21,8 +24,11 @@ def image_files (class_dir: Path):
     )
 
 def discover_input_labels(input_root: Path):
+    '''
+    
+    '''
     labels = sorted(
-        path.name
+        path.named
         for path in input_root.iterdir()
         if path.is_dir() and image_files(path)
     )
