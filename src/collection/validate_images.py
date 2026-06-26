@@ -26,6 +26,9 @@ def compute_sha256 (path: Path):
     return hasher.hexdigest() 
 
 def validate_image (path: Path, min_size =  224): 
+    '''
+    This function is to update the status of the images, whether it's valid or not, too small or not, and the bytes of it so as to check duplicates in further code
+    '''
     if not path.exists() or path.stat().st_size == 0: 
         return ImageValidationResult(
             is_valid=False, 
