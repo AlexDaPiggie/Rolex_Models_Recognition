@@ -12,6 +12,10 @@ def mark_duplicates(
     records: list[ManifestRecord],
     phash_threshold = 4,
 ):
+    
+    '''
+    This file uses sha256 and perceptual hash to make sure the images are not duplicate.
+    '''
     seen_sha256 = set()
     seen_percentual_hash = []
     updated_records = []
@@ -42,6 +46,9 @@ def mark_duplicates(
     return updated_records
 
 def write_manifest(path: Path, records: list[ManifestRecord]):
+    '''
+    This function writes the ManifestRecord objects to a .csv file, documenting the images (duplicate or not), downloaded time,...
+    '''
     path.parent.mkdir (parents = True, exist_ok = True)
     with path.open('w', newline = '', encoding = 'utf-8') as handle:
         writer = csv.DictWriter(handle, fieldnames=MANIFEST_COMPONENTS)
@@ -53,6 +60,9 @@ def move_duplicate_files (
     records: list[ManifestRecord],
     duplicate_root = Path('data/duplicates')
 ):
+    '''
+    This function is simply to move the duplicate images out of 'raw-incoming' folder to the 'duplicate' folder
+    '''
     updated_records = []
     for record in records: 
         if record.status != 'duplicate': 
