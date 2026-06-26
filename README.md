@@ -12,4 +12,4 @@ describe how data was augmented to improve the data quality
 "Explain how preprocessing was put inside train so that we don't have to deal with working too much with "
 - random resize crop
 - random rotation
-- random perspective
+- random perspective`
