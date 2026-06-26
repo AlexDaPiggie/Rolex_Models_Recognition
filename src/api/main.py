@@ -8,7 +8,7 @@ from src.training.models import create_model
 from src.identify.clip_matcher import rank_variants
 from src.identify.variants import load_catalog, variants_family
 
-VARIANT_CATALOG_PATH = Path ('data/identify/rolex_variants.json')
+VARIANT_CATALOG_PATH = Path ('src/identify/rolex_variants.json')
 MODEL_PATH = Path ('models/rolex_classifier_model.pt')
 app = FastAPI(title = 'Rolex Classifier')
 
