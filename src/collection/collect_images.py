@@ -9,6 +9,9 @@ from src.collection.validate_images import validate_image
 from src.collection.sources import get_source, VALID_LABELS
 
 def download_image(image_url: str, output_path: Path, timeout_seconds = 30): 
+    '''
+    This function is to download the image from the image_url and save it to the output path directory
+    '''
     response = requests.get (
         image_url, 
         timeout=timeout_seconds,
@@ -26,6 +29,10 @@ def collect_images (
     output_root: Path, 
     manifest_path: Path
 ): 
+    
+    '''
+    This image simply calles collect from sources.py to scrape the images from the website and save it in candidates. It creates unique id for each image to avoid repetition, and make sure the input images have the right size. Eventually, it download the approaved images to the output path and document that to maifest record.
+    '''
     source = get_source(source_name)
     candidates = source.collect (label = label, limit = limit)
     count = 0 
