@@ -570,6 +570,30 @@
             "display_name": "Rolex Yacht-Master RLX Titanium",
             "reference_examples": ["226627"],
             "clip_text": "Rolex Yacht-Master RLX Titanium, matte grey titanium case and bracelet, black or grey bezel and dial, metal bracelet, metal crown, monochrome metal style, full metal bracelet, brushed middle link metal bracelet"
-        }
+        },
+        {
+            "id": "yacht_master_ii_blue_cerachrom",
+            "display_name": "Rolex Yacht-Master II Blue Cerachrom",
+            "reference_examples": ["116680", "116681", "116688", "116689"],
+            "clip_text": "Rolex Yacht-Master II, blue numbered bezel, grey steel case and bracelet, grey steel crown, monochrome metal style, white dial, regetta chronograph ring, red seconds hand, blue bezel stamped with 'Yacht Master' at bottom, blue-ring sub-dial, red arrow hand, chronograph pushers, no date"
+        },
+        {
+            "id": "yacht_master_ii_two_tone",
+            "display_name": "Rolex Yacht-Master II Two-Tone Everose",
+            "reference_examples": ["116681"],
+            "clip_text": "Rolex Yacht-Master II two-tone steel and Everose gold case and bracelet, Everose gold crown, Everose accents, blue numbered ceramic bezel, white dial, regetta chronograph, blue bezel stamped with 'Yacht Master' at bottom, blue-ring sub-dial, red arrow hand, chronograph pushers, no date"
+        },
+        {
+            "id": "yacht_master_ii_yellow_gold",
+            "display_name": "Rolex Yacht-Master II Yellow Gold",
+            "reference_examples": ["116688"],
+            "clip_text": "Rolex Yacht-Master II full yellow gold case and bracelet, yellow gold crown, yellow gold accents, blue numbered ceramic bezel, white dial, regetta chronograph, blue bezel stamped with 'Yacht Master' at bottom, blue-ring sub-dial, red arrow hand, chronograph pushers, no date"
+        },
+        {
+            "id": "yacht_master_ii_white_gold_platinum",
+            "display_name": "Rolex Yacht-Master II White Gold Platinum",
+            "reference_examples": ["116689"],
+            "clip_text": "Rolex Yacht-Master II white metal case and bracelet, grey platinum numbered bezel, monochrome metal style, white dial, blue countdown ring, regatta chronograph, grey platinum bezel stamped with 'Yacht Master' at bottom, blue-ring sub-dial, red arrow hand, chronograph pushers, no date"
+        }                
     ]
 }
