@@ -1,0 +1,575 @@
+{
+    "airking": [
+        {
+            "id": "airking_vintage",
+            "display_name": "Rolex Air-King Vintage",
+            "reference_examples": ["4925", "4365", "4499"],
+            "clip_text": "Vintage Rolex Air-King vintage small dress watch, simple silver cream or dark dial, no date window, printed Air-King script text, acrylic crystal look, Oyster bracelet or leather strap"
+        },
+        {
+            "id": "airking_classic_smooth",
+            "display_name": "Rolex Air-King Classic Smooth",
+            "reference_examples": ["5500", "5700", "14000", "14000M", "114200"],
+            "clip_text": "Classic Rolex Air-King, plain smooth polished metal bezel with no grooves or ridges, 34mm steel Oyster case, simple clean dial, three-hand layout, no date window, Oyster bracelet, stamped with 'Precision' or 'Super Precision'"
+        },
+        {
+            "id": "airking_classing_fluted",
+            "display_name": "Rolex Air-King Classic Fluted",
+            "reference_examples": ["5501", "5701", "14010", "14010M", "114234"],
+            "clip_text": "Classic Rolex Air-King, shiny ridged metal bezel with repeated vertical grooves around the dial, 34mm steel Oyster case, simple clean dial, three-hand layout, no date window, Oyster bracelet,  stamped with 'Precision' or 'Super Precision'"
+        },
+        {
+            "id": "airking_modern",
+            "display_name": "Rolex Air-King Modern",
+            "reference_examples": ["126900", "116900"],
+            "clip_text": "Modern Rolex Air-King 126900 or 116900 with 40mm Oyster case, black dial, crown guards, large 3 6 9 numerals, minute scale with 05 marker, green Rolex logo, yellow crown logo, Oyster bracelet"
+        }        
+    ],
+
+    "cellini": [
+        {
+            "id": "cellini_time_modern_round",
+            "display_name": "Rolex Cellini Time",
+            "reference_examples": ["50505", "50509", "50605"],
+            "clip_text": "Rolex Cellini Time, no date indicator, no bottom sub-dial, Everose gold or white gold case, pointer hand, baton markers or diamond markers or Roman markers, domed and fluted double bezel or diamond-set outer edge, leather strap"
+        },
+        {
+            "id": "cellini_date_modern_subdial",
+            "display_name": "Rolex Cellini Date",
+            "reference_examples": ["50515", "50519"],
+            "clip_text": "Rolex Cellini Date, have sub-dial, round date indicator at 3 o'clock, Everose gold or white gold case, pointer hand, baton markers, domed and fluted double bezel, leather strap"
+        },
+        {
+            "id": "cellini_dual_time_modern",
+            "display_name": "Rolex Cellini Dual Time",
+            "reference_examples": ["50525", "50529"],
+            "clip_text": "Rolex Cellini Dual Time, must have sub-dial sub-dial at the bottom at 6 o'clock, Everose or white gold case, pointer hands, baton markers, fluted double bezel, leather strap"
+        },
+        {
+            "id": "cellini_moonphase_modern",
+            "display_name": "Rolex Cellini Moonphase",
+            "reference_examples": ["50535", "50515", "50519"],
+            "clip_text": "Rolex Cellini Moonphase, modern round dress watch, white dial, moonphase display at bottom at 6 o'clock with blue enamel disc, pointer date around outer edge, rose gold case, polished double bezel, brown leather strap"
+        },
+        {
+            "id": "cellini_prince",
+            "display_name": "Rolex Cellini Prince",
+            "reference_examples": ["5440", "5441", "5442", "5443"],
+            "clip_text": "Rolex Cellini Prince, rectangular doctor's watch case, long vertical dial, separate small seconds subdial at 6 o'clock, Art Deco layout, precious metal case, leather strap, strong rectangular dress watch shape"
+        },
+        {
+            "id": "cellini_cestello",
+            "display_name": "Rolex Cellini Cestello",
+            "reference_examples": ["5310", "5320", "5330", "6311",
+            "6321"],
+            "clip_text": "Rolex Cellini Cestello, no sub-dial, plantinum or reose gold case, smooth domed and rounded bezel, flat polished bezel, extended lugs, minimalist dial, leather strap"
+        },
+        {
+            "id": "cellini_danaos",
+            "display_name": "Rolex Cellini Danaos",
+            "reference_examples": ["4233", "4243", "6229"],
+            "clip_text": "Rolex Cellini Danaos, cushion-shaped dress watch like rounded rectangular, wide polished and domed bezel, minimalist dial, Arabic numerals or baton markers, leather strap"
+        },
+        {
+            "id": "cellini_cellinium",
+            "display_name": "Rolex Cellini Cellinium",
+            "reference_examples": ["5240", "5241"],
+            "clip_text": "Rolex Cellini Cellinium, platinum round dress watch, pale blue silver or black dial, small date circle at 6 o'clock, pointer hand in lower circle, slim baton markers, smooth polished bezel, black leather strap"
+        },
+        {
+            "id": "cellini_octagon",
+            "display_name": "Rolex Cellini Octagon",
+            "reference_examples": ["4350", "4355"],
+            "clip_text": "Rolex Cellini Octagon, slim dress watch with eight-sided octagonal case, angular case shape, minimalist dial, sparse hour markers, slim hands, simple applied crown logo, integrated bracelet or leather strap"
+        },
+        {
+            "id": "cellini_king_midas",
+            "display_name": "Rolex Cellini King Midas",
+            "reference_examples": ["9630", "3580", "4315"],
+            "clip_text": "Rolex Cellini King Midas, bold angular precious metal dress watch, asymmetrical case shape, integrated bracelet, flat geometric case, minimalist dial, sculptural 1970s luxury design"
+        },
+        {
+            "id": "cellini_classic_round",
+            "display_name": "Rolex Cellini Classic Round",
+            "reference_examples": ["4112", "6623"],
+            "clip_text": " Rolex Cellini Round, ultra-minimal round dress watch, completely plain dial, no date window, no small circle, no second clock face, no moonphase, no extra scale, only two or three central hands, thin stick or Roman hour markers, plain smooth bezel, leather strap or fine gold bracelet"
+        }
+    ],
+
+    "datejust": [
+        {
+            "id": "datejust_fluted",
+            "display_name": "Rolex Datejust Fluted Bezel",
+            "reference_examples": ["126234", "126334", "126233", "16234", "1601"],
+            "clip_text": "Rolex Datejust, shiny ridged fluted bezel with many vertical grooves and faceted cuts around the dial, no gem or diamond, no mother-of-pearl, date window with cyclops magnifier at 3 o'clock, Jubilee or Oyster bracelet, baguette diamond or baton hour markers"
+        },
+        {
+            "id": "datejust_smooth",
+            "display_name": "Rolex Datejust Smooth Bezel",
+            "reference_examples": ["126200", "126300", "116200", "116300", "1600"],
+            "clip_text": "Rolex Datejust with completely plain smooth polished bezel, flat mirror-like metal ring around the dial, no vertical grooves, metallic sunburst dial such as blue black silver cream or white, date window with cyclops magnifier at 3 o'clock, Oyster or Jubilee bracelet, baguette diamond or wide baton hour markers"
+        },
+        {
+            "id": "datejust_wimbledon",
+            "display_name": "Rolex Datejust Wimbledon Dial",
+            "reference_examples": ["126334", "126333", "126331", "126300", "116333"],
+            "clip_text": "Rolex Datejust Wimbledon, grey slate dial with green Roman numerals, single baton marker at 9 o'clock, date window with cyclops magnifier at 3 o'clock, fluted or smooth bezel, Oyster or Jubilee bracelet"
+        },
+        {
+            "id": "datejust_champagne",
+            "display_name": "Rolex Datejust Champagne Dial",
+            "reference_examples": ["126233", "116233", "16233", "16013"],
+            "clip_text": "Rolex Datejust Champagne, warm champagne gold dial, yellow gold and steel two-tone case or bracelet, gold baton markers or gold Roman numerals, date cyclops at 3 o'clock, fluted or smooth bezel, no grey slate dial, no green Roman numerals"
+        },
+        {
+            "id": "datejust_mop",
+            "display_name": "Rolex Datejust Mother-of-Pearl Dial",
+            "reference_examples": ["126283RBR", "278383RBR", "116233", "179173"],
+            "clip_text": "Rolex Datejust Mother-of-Pearl, pearly iridescent mother-of-pearl dial, cloudy rainbow texture pearl-like white or pastel dial texture, diamond hour markers, possible diamond-set bezel, date window with cyclops magnifier at 3 o'clock, Jubilee or Oyster bracelet"
+        },
+        {
+            "id": "datejust_palm",
+            "display_name": "Rolex Datejust Palm Dial",
+            "reference_examples": ["126200", "126234", "278273", "278274"],
+            "clip_text": "Rolex Datejust, palm leaf patterned dial, tropical leaf texture across the dial, green olive silver or champagne dial color, date window with cyclops magnifier at 3 o'clock, smooth or fluted bezel, Oyster or Jubilee bracelet"
+        }
+    ],
+
+    "daytona": [
+        {
+            "id": "daytona_panda",
+            "display_name": "Rolex Daytona Panda",
+            "reference_examples": ["116500LN", "126500LN"],
+            "clip_text": "Rolex Daytona Panda, white dial, black ceramic tachymeter bezel with white numbers, three black-ring subdials, clean modern baton markers, screw-down pushers, steel Oyster bracelet, no polished steel bezel, no vintage exotic dial"
+        },
+        {
+            "id": "daytona_black_dial",
+            "display_name": "Rolex Daytona Black Dial",
+            "reference_examples": ["116500LN", "126500LN"],
+            "clip_text": "Rolex Daytona Black Dial, black dial chronograph, black ceramic tachymeter bezel with white numbers, glossy black outer bezel, three black subdials with silver rings, steel Oyster bracelet"
+        },
+        {
+            "id": "daytona_steel_bezel",
+            "display_name": "Rolex Daytona Steel Bezel",
+            "reference_examples": ["116520", "116523", "16519"],
+            "clip_text": "Rolex Daytona Steel Bezel, Daytona chronograph with fully silver polished metal tachymeter bezel, bright silver outer bezel all around the dial, engraved black numbers directly on steel bezel"
+        },
+        {
+            "id": "daytona_john_mayer",
+            "display_name": "Rolex Daytona John Mayer",
+            "reference_examples": ["116508", "126508"],
+            "clip_text": "Rolex Daytona John Mayer, green dial chronograph, yellow gold case and yellow gold Oyster bracelet, shiny gold tachymeter bezel, three green subdials with gold rings, gold baton hour markers, screw-down pushers, no rainbow gemstones"
+        },
+        {
+            "id": "daytona_ice_blue",
+            "display_name": "Rolex Daytona Ice Blue",
+            "reference_examples": ["116506", "126506"],
+            "clip_text": "Rolex Daytona Ice Blue, pale turquoise ice blue dial chronograph, light blue or mint main dial, matching light tiffany blue subdials, black ceramic tachymeter bezel, black rubber Oysterflex strap or platinum Oyster bracelet, steel  metal case"
+        },
+        {
+            "id": "daytona_rainbow",
+            "display_name": "Rolex Daytona Rainbow",
+            "reference_examples": ["116595RBOW", "116598RBOW",
+            "116599RBOW"],
+            "clip_text": "Rolex Daytona Rainbow Gem-Set, rainbow colored gemstone bezel, multicolor sapphire hour markers, diamond lugs or diamond case, luxury jeweled chronograph, bright gem colors around the bezel, not a plain green dial, not a vintage exotic dial"
+        },
+        {
+            "id": "daytona_oysterflex_gold",
+            "display_name": "Rolex Daytona Oysterflex Gold",
+            "reference_examples": ["116515LN", "116518LN", "116519LN", "126515LN", "126518LN", "126519LN"],
+            "clip_text": "Rolex Daytona Oysterflex Gold, rose gold or yellow gold Daytona chronograph on black rubber Oysterflex strap, warm gold case, black ceramic tachymeter bezel, black champagne white or dark dial, three contrasting subdials"
+        },
+        {
+            "id": "daytona_paul_newman_vintage",
+            "display_name": "Rolex Daytona Paul Newman Style",
+            "reference_examples": ["6239", "6241", "6262", "6263", "6264", "6265"],
+            "clip_text": "  Rolex Daytona Paul Newman, vintage exotic dial chronograph from the 1960s, aged cream black or champagne dial, older small case shape, acrylic crystal look, Art Deco numerals inside subdials, square-ended subdial markers, vintage leather strap or old metal bracelet"
+        }
+    ],
+
+    "explorer": [
+        {
+            "id": "explorer_i_black",
+            "display_name": "Rolex Explorer I Black",
+            "reference_examples": ["124270", "224270", "214270", "114270", "14270"],
+            "clip_text": "Rolex Explorer I Black, modern black dial with huge white 3 6 9 numerals, white triangle marker at 12 o'clock, Mercedes hour hand, smooth plain polished steel bezel, simple three-hand dial, modern steel Oyster bracelet"
+        },
+        {
+            "id": "explorer_i_two_tone",
+            "display_name": "Rolex Explorer I Two-Tone",
+            "reference_examples": ["124273"],
+            "clip_text": "Rolex Explorer I Two-Tone, black dial field watch, yellow gold smooth bezel, gold crown, steel and yellow gold Oyster bracelet, large 3 6 9 Arabic numerals, no date window"
+        },
+        {
+            "id": "explorer_ii_polar",
+            "display_name": "Rolex Explorer II Polar",
+            "reference_examples": ["16570", "216570", "226570"],
+            "clip_text": "Rolex Explorer II Polar, white dial sport watch, fixed steel 24 hour bezel, orange GMT arrow hand, date window with cyclops at 3 o'clock, steel Oyster bracelet"
+        },
+        {
+            "id": "explorer_ii_black",
+            "display_name": "Rolex Explorer II Black",
+            "reference_examples": ["16570", "216570", "226570"],
+            "clip_text": "Rolex Explorer II Black, modern black dial, large white round and rectangular hour markers, Mercedes hour hand, orange GMT arrow hand, date cyclops at 3 o'clock, fixed silver 24-hour bezel, modern steel Oyster bracelet"
+        },
+        {
+            "id": "explorer_ii_steve_mcqueen",
+            "display_name": "Rolex Explorer II Steve McQueen",
+            "reference_examples": ["1655"],
+            "clip_text": "Rolex Explorer II Steve McQueen, silver bezel with engraved 24-hour numerals, large orange or yellow arrow hand, date window at 3 o'clock, dense minute track, no Mercedes hour hands, old stainless steel Oyster bracelet"
+        }
+    ],
+
+    "gmt_master": [
+        {
+            "id": "gmt_pepsi",
+            "display_name": "Rolex GMT-Master Pepsi",
+            "reference_examples": ["1675", "16700", "16710", "126710BLRO"],
+            "clip_text": "Rolex GMT-Master Pepsi, two-tone blue and red 24-hour bezel, blue bezel section around numbers 6 8 10 12 14 16 18, red bezel section around numbers 20 22 2 4, date cyclops at 3 o'clock"
+        },
+        {
+            "id": "gmt_batman_batgirl",
+            "display_name": "Rolex GMT-Master Batman / Batgirl",
+            "reference_examples": ["116710BLNR", "126710BLNR"],
+            "clip_text": "Rolex GMT-Master Batman / Batgirl, two-tone vivid blue and black 24-hour bezel, bright blue bezel section around numbers 6 8 10 12 14 16 18, black bezel section around numbers 20 22 2 4, right-side crown, date cyclops at 3 o'clock"
+        },
+        {
+            "id": "gmt_sprite",
+            "display_name": "Rolex GMT-Master Sprite",
+            "reference_examples": ["126720VTNR"],
+            "clip_text": "Rolex GMT-Master Sprite, two-tone bright green and black 24-hour bezel, bright green bezel section around numbers 6 8 10 12 14 16 18, black bezel section around numbers 20 22 2 4, date cyclops at 9 o'clock"
+        },
+        {
+            "id": "gmt_root_beer",
+            "display_name": "Rolex GMT-Master Root Beer",
+            "reference_examples": ["1675/3", "16713", "126711CHNR", "126715CHNR"],
+            "clip_text": "Rolex GMT-Master Root Beer, chocolate brown and black 24-hour bezel, rose gold accents, full rose gold or two-tone rose gold and steel bracelet, black dial, date cyclops at 3 o'clock"
+        },
+        {
+            "id": "gmt_regular",
+            "display_name": "Rolex GMT-Master Black Ceramic",
+            "reference_examples": ["116710LN"],
+            "clip_text": "Rolex GMT-Master Black Ceramic, all-black ceramic 24-hour bezel, black bezel around every number, white numbers on black bezel, not grey bezel, not green bezel, not blue bezel"
+        },
+        {
+            "id": "gmt_gem_set",
+            "display_name": "Rolex GMT-Master Gem-Set",
+            "reference_examples": ["126755SARU", "116759SARU", "116758SA"],
+            "clip_text": "Rolex GMT-Master Gem-Set, diamond or sapphire gemstone bezel, colorful jeweled 24-hour bezel, diamond hour markers, luxury precious metal case, GMT arrow hand, date cyclops"
+        },
+        {
+            "id": "gmt_yellow_gold",
+            "display_name": "Rolex GMT-Master Yellow Gold",
+            "reference_examples": ["16718", "116718LN", "126713GRNR", "126718GRNR"],
+            "clip_text": "Rolex GMT-Master Yellow Gold, yellow gold GMT watch, full yellow gold or yellow gold two-tone bracelet, yellow gold case and crown, black grey or gold bezel, black or champagne dial"
+        },
+        {
+            "id": "gmt_gold_green",
+            "display_name": "Rolex GMT-Master Yellow Gold Green Dial",
+            "reference_examples": ["116718LN"],
+            "clip_text": "Rolex GMT-Master Yellow Gold Green Dial, green sunburst dial face, black 24-hour bezel with gold numbers, yellow gold case and crown, date cyclops at 3 o'clock"
+        },
+        {
+            "id": "gmt_bruce_wayne",
+            "display_name": "Rolex GMT-Master Bruce Wayne",
+            "reference_examples": ["126710GRNR", "126713GRNR", "126718GRNR"],
+            "clip_text": "Rolex GMT-Master Bruce Wayne, obvious grey and black two-color bezel, light grey lower bezel half, black upper bezel half, strong visible color boundary between grey and black, black dial"
+        }        
+    ],
+
+    "milgauss": [
+        {
+            "id": "milgauss_z_blue",
+            "display_name": "Rolex Milgauss Z-Blue",
+            "reference_examples": ["116400GV"],
+            "clip_text": "Rolex Milgauss Z-Blue, electric blue dial, green tinted sapphire crystal, orange lightning bolt seconds hand, orange minute markers, smooth steel bezel, steel Oyster bracelet"
+        },
+        {
+            "id": "milgauss_black_gv",
+            "display_name": "Rolex Milgauss Black GV",
+            "reference_examples": ["116400GV"],
+            "clip_text": "Rolex Milgauss Black GV, black dial, green tinted sapphire crystal, orange lightning bolt seconds hand, orange and white hour markers, smooth steel bezel, steel Oyster bracelet"
+        },
+        {
+            "id": "milgauss_white",
+            "display_name": "Rolex Milgauss White",
+            "reference_examples": ["116400"],
+            "clip_text": "Rolex Milgauss White, white dial, orange hour markers, orange lightning bolt seconds hand, clear sapphire crystal, smooth steel bezel, steel Oyster bracelet"
+        }
+    ],
+
+    "oyster_perpetual": [
+        {
+            "id": "op_turquoise",
+            "display_name": "Rolex Oyster Perpetual Turquoise",
+            "reference_examples": ["124300", "126000", "277200"],
+            "clip_text": "Rolex Oyster Perpetual Turquoise, bright turquoise blue dial, smooth polished bezel, simple no-date dial, baton hour markers, steel Oyster bracelet"
+        },
+        {
+            "id": "op_green",
+            "display_name": "Rolex Oyster Perpetual Green",
+            "reference_examples": ["124300", "126000", "277200"],
+            "clip_text": "Rolex Oyster Perpetual Green, green dial, smooth polished bezel, simple no-date dial, baton hour markers, steel Oyster bracelet"
+        },
+        {
+            "id": "op_blue",
+            "display_name": "Rolex Oyster Perpetual Blue",
+            "reference_examples": ["124300", "126000", "277200"],
+            "clip_text": "Rolex Oyster Perpetual Blue, dark blue or bright blue dial, smooth polished bezel, simple no-date dial, baton hour markers, steel Oyster bracelet"
+        },
+        {
+            "id": "op_black",
+            "display_name": "Rolex Oyster Perpetual Black",
+            "reference_examples": ["124300", "126000", "277200"],
+            "clip_text": "Rolex Oyster Perpetual Black, blackd ial, smooth polished bezel, simple no-date dial,b aton hour markers, steel Oyster bracelet"
+        },
+        {
+            "id": "op_silver",
+            "display_name": "Rolex Oyster Perpetual Silver",
+            "reference_examples": ["124300", "126000",
+            "277200"],
+            "clip_text": "Rolex Oyster Perpetual Silver, silver dial, sunburst silver dial face, smooth polished bezel, simple no-date dial, baton hour markers, steel Oyster bracelet"
+        },
+        {
+            "id": "op_pink",
+            "display_name": "Rolex Oyster Perpetual Candy Pink",
+            "reference_examples": ["124300", "126000", "277200"],
+            "clip_text": "Rolex Oyster Perpetual Candy Pink, bright candy pink dial, smooth polished bezel, simple no-date dial, baton hour markers, steel Oyster bracelet"
+        },
+        {
+            "id": "op_yellow",
+            "display_name": "Rolex Oyster Perpetual Yellow",
+            "reference_examples": ["124300", "126000", "277200"],
+            "clip_text": "Rolex Oyster Perpetual Yellow, bright yellow dial, smooth polished bezel, simple no-date dial, baton hour markers, steel Oyster bracelet"
+        },
+        {
+            "id": "op_celebration",
+            "display_name": "Rolex Oyster Perpetual Celebration Dial",
+            "reference_examples": ["124300", "126000", "277200"],
+            "clip_text": "Rolex Oyster Perpetual Celebration, colorful bubble dial with many overlapping circles, turquoise yellow coral pink green and blue circles, smooth polished bezel, steel Oyster bracelet"
+        },
+        {
+            "id": "op_coral_red",
+            "display_name": "Rolex Oyster Perpetual Coral Red",
+            "reference_examples": ["124300", "126000", "277200"],
+            "clip_text": "Rolex Oyster Perpetual Coral Red, bright coral red or orange red dial, smooth polished bezel, simple no-date dial, baton hour markers, steel Oyster bracelet"
+        }
+    ],
+
+    "oysterquartz": [
+        {
+            "id": "oysterquartz_datejust",
+            "display_name": "Rolex Oysterquartz Datejust",
+            "reference_examples": ["17000", "17013", "17014"],
+            "clip_text": "Rolex Oysterquartz Datejust, single date cyclops at 3 o'clock, clean dial top with Rolex logo at 12 o'clock, angular case, integrated bracelet, steel or two-tone yellow gold case"
+        },
+        {
+            "id": "oysterquartz_day_date",
+            "display_name": "Rolex Oysterquartz Day-Date",
+            "reference_examples": ["19018", "19019"],
+            "clip_text": "Rolex Oysterquartz Day-Date, full weekday word window across the top of the dial at 12 o'clock, date cyclops at 3 o'clock, angular case, integrated bracelet, steel or two-tone yellow gold case"
+        }
+    ],
+
+    "president": [
+        {
+            "id": "president_yellow_gold",
+            "display_name": "Rolex Day-Date President Yellow Gold",
+            "reference_examples": ["1803", "18038", "18238", "118238", "128238"],
+            "clip_text": "Rolex Day-Date President Yellow Gold, vintage yellow gold Day-Date, full yellow gold case and President bracelet, champagne gold black or white dial, fluted gold bezel, full weekday window at 12 o'clock, date cyclops at 3 o'clock"
+        },
+        {
+            "id": "president_stella",
+            "display_name": "Rolex Day-Date President Stella Dial",
+            "reference_examples": ["1803", "18038"],
+            "clip_text": "Rolex Day-Date President Stella, vintage yellow gold Day-Date with bright solid lacquer dial, vivid blue turquoise red yellow green pink orange or oxblood dial color, glossy enamel-like dial surface, yellow gold President bracelet, weekday window at 12 o'clock, date cyclops at 3 o'clock"
+        },
+        {
+            "id": "president_everose",
+            "display_name": "Rolex Day-Date President Everose",
+            "reference_examples": ["118235", "128235", "228235"],
+            "clip_text": "Rolex Day-Date President Everose, rose gold Day-Date with olive green dial, fluted rose gold bezel with many vertical ridged metal grooves, rose gold President bracelet, Roman numeral markers, weekday window at 12 o'clock, date cyclops at 3 o'clock"
+        },
+        {
+            "id": "president_platinum_ice_blue",
+            "display_name": "Rolex Day-Date President Platinum Ice Blue",
+            "reference_examples": ["118206", "218206", "228206"],
+            "clip_text": "Rolex Day-Date President Platinum Ice Blue, pale ice blue dial, cool silver white platinum case and President bracelet, fluted or smooth platinum bezel, weekday window at 12 o'clock, date cyclops at 3 o'clock"
+        },
+        {
+            "id": "president_white_gold_blue",
+            "display_name": "Rolex Day-Date President White Gold Blue Dial",
+            "reference_examples": ["118239", "128239", "228239"],
+            "clip_text": "Rolex Day-Date President White Gold Blue, blue dial, cool white gold case and President bracelet, fluted white gold bezel, weekday window at 12 o'clock, date cyclops at 3 o'clock"
+        },
+        {
+            "id": "president_diamond",
+            "display_name": "Rolex Day-Date President Diamond",
+            "reference_examples": ["128349RBR", "128345RBR", "228396TBR", "228398TBR"],
+            "clip_text": "Rolex Day-Date President Pave Diamond, dial fully covered with small diamonds, sparkling pave diamond dial, diamond hour markers, possible diamond bezel, President bracelet, weekday window at 12 o'clock, date cyclops at 3 o'clock"
+        }
+    ],
+
+    "sea_dweller": [
+        {
+            "id": "sea_dweller_red",
+            "display_name": "Rolex Sea-Dweller Red Sea",
+            "reference_examples": ["126600"],
+            "clip_text": "  Rolex Sea-Dweller Red Sea, modern black dial dive watch, date cyclops magnifier at 3 o'clock, red Sea- Dweller text line near lower dial, black ceramic dive bezel, large modern steel case, Oyster bracelet"
+        },
+        {
+            "id": "sea_dweller_double_red",
+            "display_name": "Rolex Sea-Dweller Double Red",
+            "reference_examples": ["1665"],
+            "clip_text": "Rolex Sea-Dweller Double Red, vintage black dial dive watch, two red text lines on dial, black aluminum rotating dive bezel, date window without cyclops, thick vintage steel case, Oyster bracelet"
+        },
+        {
+            "id": "sea_dweller_great_white",
+            "display_name": "Rolex Sea-Dweller Great White / Black Dial",
+            "reference_examples": ["1665", "116600", "116660", "126660", "136660"],
+            "clip_text": "Rolex Sea-Dweller Great White / Black Dial, vintage black dial dive watch, white writing only on the dial, date window at 3 o'clock without cyclops magnifier, black aluminum dive bezel, older vintage steel case, Oyster bracelet"
+        },
+        {
+            "id": "sea_dweller_two_tone",
+            "display_name": "Rolex Sea-Dweller Two-Tone",
+            "reference_examples": ["126603"],
+            "clip_text": "Rolex Sea-Dweller Two-Tone, black dial dive watch, black ceramic rotating dive bezel, steel and yellow gold case, yellow gold crown, yellow gold bracelet center links, date cyclops at 3 o'clock"
+        },
+        {
+            "id": "deepsea_james_cameron",
+            "display_name": "Rolex Deepsea James Cameron",
+            "reference_examples": ["116660", "126660", "136660"],
+            "clip_text": "Rolex Deepsea James Cameron, very large thick dive watch, blue to black gradient dial, green Deepsea text on dial, black ceramic rotating dive bezel, date window without cyclops, massive steel case"
+        }
+    ],
+
+    "submariner": [
+        {
+            "id": "submariner_black_date",
+            "display_name": "Rolex Submariner Black Dial",
+            "reference_examples": ["16610", "116610LN", "126610LN", "14060", "114060", "124060"],
+            "clip_text": "Rolex Submariner Black Date, black dive bezel with white numbers,  black Submariner dial, black dive bezel, Mercedes hands"
+        },
+        {
+            "id": "submariner_kermit_starbucks",
+            "display_name": "Rolex Submariner Kermit / Starbucks",
+            "reference_examples": ["16610LV", "126610LV"],
+            "clip_text": "Rolex Submariner Kermit Starbucks, green rotating dive bezel, black dial, green bezel with black dial contrast, date cyclops at 3 o'clock, steel Oyster bracelet"
+        },
+        {
+            "id": "submariner_hulk",
+            "display_name": "Rolex Submariner Hulk",
+            "reference_examples": ["116610LV"],
+            "clip_text": "Rolex Submariner Hulk, green sunburst dial, green rotating dive bezel, matching green dial and green bezel, all-green Submariner look, date cyclops at 3 o'clock, steel Oyster bracelet"
+        },
+        {
+            "id": "submariner_bluesy",
+            "display_name": "Rolex Submariner Bluesy",
+            "reference_examples": ["16613LB", "116613LB",
+            "126613LB"],
+            "clip_text": "Rolex Submariner Bluesy, blue dial and bezel, two-tone steel and yellow gold case and bracelet, yellow gold crown, yellow gold bezel markings, warm gold accents around hour markers, date cyclops"
+        },
+        {
+            "id": "submariner_smurf",
+            "display_name": "Rolex Submariner Smurf",
+            "reference_examples": ["116619LB"],
+            "clip_text": "Rolex Submariner Smurf, dark blue or blue dial, blue bezel, full steel case and bracelet, steel bezel markings, steel silver accents around hour markers, all silver-white metal case and bracelet, silver crown, silver bracelet links, cool monochrome metal look, date cyclops"
+        },
+        {
+            "id": "submariner_cookie_monster",
+            "display_name": "Rolex Submariner Cookie Monster",
+            "reference_examples": ["126619LB"],
+            "clip_text": "Rolex Submariner Smurf, blue or dark blue bezel, black dial,  full steel case and bracelet, steel bezel markings, steel silver accents around hour markers, all silver-white metal case and bracelet, silver crown, silver bracelet links, cool monochrome metal look, date cyclops"
+        },
+        {
+            "id": "submariner_comex",
+            "display_name": "Rolex Submariner COMEX",
+            "reference_examples": ["5513", "5514", "16610"],
+            "clip_text": "Rolex Submariner COMEX, black dial dive watch with COMEX logo text on dial, black 'COMEX' word on white background,  black rotating dive bezel, vintage or professional diver watch, Oyster bracelet"
+        }
+    ],
+
+    "turn_o_graph": [
+        {
+            "id": "turn_o_graph_yellow_gold_thunderbird",
+            "display_name": "Rolex Datejust Turn-O-Graph 1625 Thunderbird",
+            "reference_examples": ["1625"],
+            "clip_text": "Vintage Rolex Turn-O-Graph 1625 Thunderbird, yellow gold numbered bezel, two-tone Jubilee, date cyclops"
+        },
+        {
+            "id": "turn_o_graph_16264_white_gold",
+            "display_name": "Rolex Datejust Turn-O-Graph 16264 White Gold",
+            "reference_examples": ["16264"],
+            "clip_text": "Rolex Turn-O-Graph 16264, white gold numbered bezel, steel case, steel seconds hand, silver white or black dial, date cyclops, black date with white background, monochrome metal style"
+        },
+        {
+            "id": "turn_o_graph_red_accent",
+            "display_name": "Rolex Datejust Turn-O-Graph 116264 Red Accent",
+            "reference_examples": ["116264"],
+            "clip_text": "Modern Rolex Turn-O-Graph 116264, white gold numbered bezel, steel case, red seconds hand, red date, red dial text, red accent design"
+        },
+        {
+            "id": "turn_o_graph_116263_yellow_gold",
+            "display_name": "Rolex Datejust Turn-O-Graph 116263 Yellow Gold",
+            "reference_examples": ["116263"],
+            "clip_text": "Modern Rolex Turn-O-Graph 116263, yellow gold bezel, two-tone bracelet, red seconds hand, red date"
+        },
+        {
+            "id": "turn_o_graph_everose",
+            "display_name": "Rolex Datejust Turn-O-Graph 116261 Everose Gold",
+            "reference_examples": ["116261"],
+            "clip_text": "Modern Rolex Turn-O-Graph 116261, rose gold bezel, two-tone bracelet, red seconds hand, red date"
+        }
+    ],
+
+    "yacht_master": [
+        {
+            "id": "yacht_master_rhodium",
+            "display_name": "Rolex Yacht-Master Rhodium",
+            "reference_examples": ["126622", "116622"],
+            "clip_text": "Rolex Yacht-Master rhodium grey dial, light blue seconds hand, platinum-tone bezel, steel Oyster bracelet, full metal bracelet, monochrome metal style"
+        },
+        {
+            "id": "yacht_master_blue_dial",
+            "display_name": "Rolex Yacht-Master Blue Dial",
+            "reference_examples": ["126622", "116622"],
+            "clip_text": "Rolex Yacht-Master blue dial, red seconds hand, red Yacht-Master text, platinum-tone bezel, steel Oyster bracelet"
+        },
+        {
+            "id": "yacht_master_everose_oysterflex",
+            "display_name": "Rolex Yacht-Master Everose Oysterflex",
+            "reference_examples": ["126655", "116655", "268655"],
+            "clip_text": "Rolex Yacht-Master Everose gold case, black bezel, black dial, black Oysterflex rubber strap, Everose gold clasp, Everose gold crown"
+        },
+        {
+            "id": "yacht_master_white_gold_oysterflex",
+            "display_name": "Rolex Yacht-Master White Gold Oysterflex",
+            "reference_examples": ["226659"],
+            "clip_text": "Rolex Yacht-Master white metal case, black bezel, black dial, black Oysterflex rubber strap, white metal clasp, white metalcrown"
+        },
+        {
+            "id": "yacht_master_yellow_gold_oysterflex",
+            "display_name": "Rolex Yacht-Master Yellow Gold Oysterflex",
+            "reference_examples": ["226658"],
+            "clip_text": "Rolex Yacht-Master yellow gold case, yellow gold crown, yellow gold accents, black bezel, black dial, black Oysterflex rubber strap"
+        },
+        {
+            "id": "yacht_master_yellow_gold_metal",
+            "display_name": "Rolex Yacht-Master Vintage",
+            "reference_examples": ["126621", "116621", "16628", "16623"],
+            "clip_text": "Rolex Yacht-Master Vintage in Yellow gold, yellow blue white or mother-of-pearl dial, full yellow gold or two-tone case and bracelet, yellow gold crown, yellow gold accents"
+        },        
+        {
+            "id": "yacht_master_everose_metal",
+            "display_name": "Rolex Yacht-Master Everose Gold Chocolate / Black",
+            "reference_examples": ["126621", "116621", "16628", "16623"],
+            "clip_text": "Rolex Yacht-Master steel and Everose two-tone bracelet, chocolate brown sunburst or black dial, rose gold bezel, rose gold crown, rose gold accents"
+        },
+        {
+            "id": "yacht_master_titanium",
+            "display_name": "Rolex Yacht-Master RLX Titanium",
+            "reference_examples": ["226627"],
+            "clip_text": "Rolex Yacht-Master RLX Titanium, matte grey titanium case and bracelet, black or grey bezel and dial, metal bracelet, metal crown, monochrome metal style, full metal bracelet, brushed middle link metal bracelet"
+        }
+    ]
+}
