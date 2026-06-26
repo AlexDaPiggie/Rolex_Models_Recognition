@@ -5,6 +5,10 @@ from urllib.parse import urljoin
 import re
 import requests
 
+
+'''
+Below are the URL links from which the Rolex models are fetched from the website of SwissWatchExpo. Valid labels are basically the key of the below dictionary.
+'''
 SWISSWATCHEXPO_URLS = {
     'airking': 'https://www.swisswatchexpo.com/watches/rolex/air-king/',
     'cellini': 'https://www.swisswatchexpo.com/watches/rolex/cellini/',
@@ -26,6 +30,9 @@ SWISSWATCHEXPO_URLS = {
 
 VALID_LABELS = set(SWISSWATCHEXPO_URLS.keys())
 
+'''
+Initialize the structure of the image candidates (images that are likely to be watches images)
+'''
 @dataclass(frozen = True)
 class ImageCandidate:
     label: str 
@@ -35,11 +42,12 @@ class ImageCandidate:
     image_url: str
 
 class SourceAdapter (Protocol): 
+    '''
+    Initialize the structure for the future source classes: have a name and collect label + limit (number of images)
+    '''
     source_name: str 
-
     def collect (self, label: str, limit: int): 
-        
-        return 
+        ...
 
 def validate_label (label: str): 
     if label not in VALID_LABELS: 
@@ -53,6 +61,9 @@ def parse_product_images (
     product_selector: str, 
 ): 
     
+    '''
+    This function implements the logic to scrape the images from the website to the local dataset. It simply downloads the images under the <img> tag
+    '''
     validate_label (label) 
     soup = BeautifulSoup (html, 'html.parser')
     page_title = soup.title.string.strip() if soup.title and soup.title.string else page_url
@@ -81,7 +92,10 @@ def parse_product_images (
 
     return candidates
 
-def parse_next_page_url(html: str, page_url: str, current_page: int) -> str | None:
+def parse_next_page_url(html: str, page_url: str, current_page: int):
+    '''
+    This function is to find the 'next-page' button. Because parsing images from one page just returns around 12 watches, this helps to automatically moves on to the next page, and redo the logic for parsing the images. It simple finds the code under <a> tags with the text changeCurrentPage...., to click it.
+    '''
     soup = BeautifulSoup(html, "html.parser")
     page_links: list[tuple[int, str]] = []
 
@@ -103,11 +117,17 @@ def parse_next_page_url(html: str, page_url: str, current_page: int) -> str | No
 
 @dataclass(frozen=True)
 class SwissWatchExpoSource:
+    '''
+    The scraper will stop after 20 seconds without any signals from the website. It will fetch maximum 1e5 pages (alot). We have source name to differentiate it from other sources (I intended to scrape from watchfinder intially but I removed it afterwards)
+    '''
     source_name = 'swisswatchexpo'
     timeout_seconds = 20
     max_pages = 100000
 
     def collect (self, label: str, limit: int): 
+        '''
+        This function implements the core logic to fetch the images. Keep saving watches images to a list of candidates until it reaches the final page.
+        '''
         validate_label(label)
         candidates = []
         next_url = SWISSWATCHEXPO_URLS[label]
