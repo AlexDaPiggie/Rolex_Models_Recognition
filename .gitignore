@@ -1,5 +1,8 @@
 docs
 models
 .pytest_cache
-data
+*.jpg
+*.jpeg
+*.png
+*.webp
 *.pyc
