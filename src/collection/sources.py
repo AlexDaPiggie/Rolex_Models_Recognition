@@ -166,6 +166,9 @@ class SwissWatchExpoSource:
         return candidates[:limit]
 
 def get_source (source_name: str):
+    '''
+    This fucntion is simply to return the scraper structure for each source. It was intially created to handle multiple sources of images. However, it turns out that the data from swiss watch expo is sufficient and stable enough. The other sources have many irrelevant images, which damage the performance, hence has been removed.
+    '''
     if source_name == 'swisswatchexpo':
         return SwissWatchExpoSource()
     raise ValueError(f'Source unknown: {source_name}')

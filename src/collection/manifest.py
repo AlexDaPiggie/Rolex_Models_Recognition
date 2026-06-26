@@ -2,6 +2,9 @@ import csv
 from dataclasses import dataclass, asdict
 from pathlib import Path
 
+'''
+Define the structure of the CSV record to document the data
+'''
 MANIFEST_COMPONENTS = [
     'image_id', 
     'label', 
@@ -20,6 +23,9 @@ MANIFEST_COMPONENTS = [
     'rejection_reason'
 ]
 
+'''
+Initialize the ManifestRecord in dataclass (which will later be converted into dict and .csv file)
+'''
 @dataclass(frozen=True)
 class ManifestRecord():
     image_id: str
@@ -38,6 +44,9 @@ class ManifestRecord():
     status: str
     rejection_reason: str = ''
 
+'''
+This function is for adding new image to the record
+'''
 def append_record (manifest_path: Path, record: ManifestRecord):
     manifest_path.parent.mkdir (parents = True, exist_ok=True)
     file_exists = manifest_path.exists()
@@ -48,6 +57,9 @@ def append_record (manifest_path: Path, record: ManifestRecord):
         writer.writerow(asdict(record))
     return None
 
+'''
+This function is for reading the data from the record, returning the detailed informatin of the image, including size and weight
+'''
 def read_manifest (manifest_path: Path): 
     if not manifest_path.exists(): 
         return []
