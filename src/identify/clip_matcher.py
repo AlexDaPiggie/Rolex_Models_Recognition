@@ -1,6 +1,6 @@
 from PIL import Image
 from transformers import pipeline
-from src.identify.HF_API_Token import get_api
+import os
 
 '''
 This file implement the logic of the zero-shot clip model. This comes in action after the deeplearning model has predicted the Rolex model. It checks the model variants in the file rolex_variants.json to tell which specific variant that model is.
@@ -18,7 +18,7 @@ def get_detector():
         _detector = pipeline (
             task = 'zero-shot-image-classification',
             model = MODEL_NAME,
-            token = get_api(),
+            token = os.getenv("HF_TOKEN"),
         )
     return _detector
 
