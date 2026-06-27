@@ -1,7 +1,6 @@
 docs
 models
 .pytest_cache
-src/identify/HF_API_Token.py
 *.jpg
 *.jpeg
 *.png
